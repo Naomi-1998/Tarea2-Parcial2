@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Promedio Empleados</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form id="formularioEmpleados">
+                <div>
+                <label for="nombreEmpleado"></label>
+                <input type="text" id="nombreEmpleado" name="nombreEmpleado" placeholder="Nombre del empleado">
+                </div>
+                <div>
+                <label for="valorHora"></label>
+                <input type="text" id="valorHora" name="valorHora" placeholder="Valor por hora" >
+                </div>
+                <div>
+                <label for="numeroHoras"></label>
+                <input type="text" id="numeroHoras" name="numeroHoras" placeholder="Número de horas trabajadas">
+                </div>
+                <div class="botones">
+                    <button type="button" class="boton" onClick="arr.calcularPromedio()">Calcular Promedio</button><br>
+                        <button type="reset" class="boton" >Limpiar</button>
+            </form>
+        </section>
+        <div id="resp">
+            aqui va a ir la respuesta
+        </div
+        </main>
+    <footer>
+        <h6>Todos los derechos reservados - documentSoft.</h6>
+    </footer>
+    <script src="./../../js/arreglos.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+      font-family: Georgia, 'Times New Roman', Times, serif, sans-serif, ;
+      background-image: url('../img/imagen03.gif');
+      height: 100px;
+      margin: 0;
+      padding: 20px; 
+}
+h1{
+      color: #120114;
+      text-align: center;
+      background-color: #d3bce2;
+      border-radius: 20px;
+
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+flex-wrap: wrap;
+max-width: 800px;
+margin: 10px auto;
+background-color: #decbeb;
+border-radius: 20px;
+padding: 30px;
+box-shadow: 0 1px 10px rgba(115, 122, 114, 0.5);
+font-size: 32px;
+}
+
+.boton {
+      display: inline-block;
+      padding: 7px 20px;
+      background-color: #7a698a;
+      color: #0c0111;
+      text-decoration: none;
+      border-radius: 15px;
+      transition: all 0.9s ease-in-out;
+      
+}
+.boton:hover {
+      background-color: #ba9fc5;
+      padding: 10px 20px;
+}
+h6 {
+      color: #9cb8c9;
+      text-align: center;
+}
+/* estilos para los formularios */
+input {
+      width: 100%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 1px solid #cea9c0;
+}
+
+#resp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 80%;
+      margin: 0 auto;
+      color:#efeaf1;
+      font-weight: 900;
+      background-color: #a07b9a;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 5px 10px rgba(116, 20, 116, 0.5);
+}
+.botones{
+      display: flex;
+      justify-content:center;
+      gap: 10px;
+      margin-bottom: 5px;
+
+}
